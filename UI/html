@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <!-- Input Section -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Text Input</h5>
+                    <textarea class="form-control" id="textInput" rows="3" placeholder="Enter text for sentiment analysis..."></textarea>
+                    <button class="btn btn-primary mt-2">Analyze Sentiment</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-8">
+            <!-- Results Section -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Results</h5>
+                    <div id="results">
+                        <!-- Results will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
